@@ -1,0 +1,11 @@
+[Unit]
+Description=start blink after boot
+After=default.target
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/blink.rb start
+ExecStop=/usr/local/bin/blink.rb stop
+
+[Install]
+WantedBy=default.target

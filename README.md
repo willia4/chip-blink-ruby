@@ -88,7 +88,7 @@ You could download the code directly from github; but you have git installed so 
 
 ## Start the service
 
-   service blink start
+    service blink start
 
 ## Stop the service
 
